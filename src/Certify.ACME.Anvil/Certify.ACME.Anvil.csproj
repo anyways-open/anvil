@@ -2,7 +2,7 @@
   <Import Project="../../misc/Certify.ACME.Anvil.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net7.0;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net6.0;</TargetFrameworks>
     <AssemblyVersion>3.0.0</AssemblyVersion>
     <Version>3.0.0</Version>
     <FileVersion>3.0.0</FileVersion>
@@ -11,10 +11,10 @@
     <Title>$(Product)</Title>
     <Description>A client library implementation for the Automated Certificate Management Environment (ACME) protocol, as used by https://certifytheweb.com. This package is a fork of the excellent https://github.com/fszlin/certes project with updated packaging, feature updates and experimental extensions.</Description>
     <PackageTags>ACME;letsencrypt;HTTPS;SSL;Certificate</PackageTags>
-    <PackageProjectUrl>https://github.com/webprofusion/anvil</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/anyways-open/anvil</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/webprofusion/anvil</RepositoryUrl>
+    <RepositoryUrl>https://github.com/anyways-open/anvil</RepositoryUrl>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Certify.ACME.xml</DocumentationFile>
     <PackageIcon>logo.png</PackageIcon>
     <PackageId>Webprofusion.Certify.ACME.Anvil</PackageId>
@@ -58,11 +58,11 @@
     <DebugType>Full</DebugType>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
     <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
     <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 
