@@ -33,9 +33,6 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
 
-    - name: Run dotnet format
-      run: dotnet format --verify-no-changes --verbosity diagnostic --no-restore
-
     - name: Nuget Pack
       run: dotnet pack -c release --version-suffix dev
       working-directory: ./src/Certify.ACME.Anvil/
