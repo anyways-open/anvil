@@ -2,7 +2,7 @@
     <Import Project="../../misc/Certify.ACME.Anvil.props" />
 
   <PropertyGroup>
-    <TargetFrameworks>net7.0;</TargetFrameworks>
+    <TargetFrameworks>net6.0;</TargetFrameworks>
     <RootNamespace>Certify.ACME.Anvil.Tests.Integration</RootNamespace>
     <NoWarn>1701;1702;1705;0618</NoWarn>
   </PropertyGroup>
